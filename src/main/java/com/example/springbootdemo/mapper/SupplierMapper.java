@@ -9,4 +9,5 @@ public interface SupplierMapper {
     @Select("select * from supplier")
     List<Supplier> supplierList();
 
+
 }
